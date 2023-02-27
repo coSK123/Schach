@@ -1,11 +1,11 @@
 package packagePieces;
 public class Piece {
     public String name;
-    Boolean black;
-    int id;
-    Boolean threatened;
-    int position_x;
-    int position_y;
+    public Boolean black;
+    public int id;
+    public Boolean threatened;
+    public int position_x;
+    public int position_y;
     public Piece(String name, Boolean black, int id, int position_x,
     int position_y)
     {
