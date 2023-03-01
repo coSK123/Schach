@@ -1,5 +1,5 @@
 import packagePieces.*;
-import java.util.*;
+
 public class Schach{
     static Piece [] [] Board = new Piece[8][8];
  
