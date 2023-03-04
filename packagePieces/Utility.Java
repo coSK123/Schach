@@ -33,6 +33,19 @@ public class Utility{
                 return false;
             }
         }    
+        else if(movingPiece.name == "King"){
+            if((movingPiece.position_x-changeX != 1 ||movingPiece.position_x-changeX != 0 || movingPiece.position_x-changeX != -1)&&
+            (movingPiece.position_y-changeY != 1 ||movingPiece.position_y-changeY != 1 ||movingPiece.position_y-changeY != -1))
+            {
+                return false;
+            }
+        }
+        else if(movingPiece.name == "Pawn"){
+            if(true){
+                //Add slightly complicated logic for pawns
+                return false;
+            }
+        }
         else
         {
             return true ;
